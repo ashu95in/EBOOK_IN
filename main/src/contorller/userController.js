@@ -8,7 +8,7 @@ exports.Home = (req,res)=>{
 
 exports.lib = (req,res)=>{
     res.status(200);
-    res.sendFile(path.join(__dirname, '../../public/pages', 'lib.html'));
+    res.sendFile(path.join(__dirname, '../../public/pages', 'Lib.html'));
 
 }
 
