@@ -2,10 +2,11 @@
   "name": "ebook_server",
   "version": "1.0.0",
   "description": "'ebook server'",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "test"
-  },
+    "test": "node index.js",
+    "start": "node index.js"
+  },  
   "keywords": [
     "ebookin"
   ],
